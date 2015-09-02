@@ -18,11 +18,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/oppo/msm8939-common/proprietary/bin/cnd:system/bin/cnd \
+    vendor/oppo/msm8939-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/oppo/msm8939-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/oppo/msm8939-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oppo/msm8939-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/oppo/msm8939-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/oppo/msm8939-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/oppo/msm8939-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/oppo/msm8939-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/oppo/msm8939-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/msm8939-common/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -34,6 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/sensor_work:system/bin/sensor_work \
     vendor/oppo/msm8939-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/msm8939-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/oppo/msm8939-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
+    vendor/oppo/msm8939-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -77,6 +82,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -84,6 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
@@ -98,6 +107,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oppo/msm8939-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/oppo/msm8939-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/oppo/msm8939-common/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/oppo/msm8939-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/oppo/msm8939-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/oppo/msm8939-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -251,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/oppo/msm8939-common/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
@@ -577,7 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/oppo/msm8939-common/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/oppo/msm8939-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
