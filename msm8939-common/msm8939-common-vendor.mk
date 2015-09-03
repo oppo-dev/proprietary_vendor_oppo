@@ -17,6 +17,8 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     TimeService \
+    qcrilmsgtunnel \
+    shutdownlistener \
     libtime_genoff \
     libTimeService \
     libqct_resampler \
