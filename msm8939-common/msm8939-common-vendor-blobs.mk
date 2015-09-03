@@ -88,17 +88,18 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/oppo/msm8939-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/oppo/msm8939-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/oppo/msm8939-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -108,8 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oppo/msm8939-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/oppo/msm8939-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/oppo/msm8939-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/oppo/msm8939-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
