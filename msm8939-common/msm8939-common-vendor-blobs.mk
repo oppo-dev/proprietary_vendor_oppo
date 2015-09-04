@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
