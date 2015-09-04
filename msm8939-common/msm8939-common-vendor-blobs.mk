@@ -81,6 +81,19 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.eq:system/etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.eq \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.preset:system/etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.preset \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.eq:system/etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.eq \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.preset:system/etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.preset \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/15018/TFA9890_1111.speaker:system/etc/tfa9890/settings/15018/TFA9890_1111.speaker \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/NHQ_0_0_TFA9890_1111.eq:system/etc/tfa9890/settings/NHQ_0_0_TFA9890_1111.eq \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/NHQ_0_0_TFA9890_1111.preset:system/etc/tfa9890/settings/NHQ_0_0_TFA9890_1111.preset \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/Speech_0_0_TFA9890_1111.eq:system/etc/tfa9890/settings/Speech_0_0_TFA9890_1111.eq \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/Speech_0_0_TFA9890_1111.preset:system/etc/tfa9890/settings/Speech_0_0_TFA9890_1111.preset \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/TFA9890_1111.speaker:system/etc/tfa9890/settings/TFA9890_1111.speaker \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa9890/settings/TFA9890_N1B12_N1C3_v2.config \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/TFA9890_N1C3_1_7_1.patch:system/etc/tfa9890/settings/TFA9890_N1C3_1_7_1.patch \
+    vendor/oppo/msm8939-common/proprietary/etc/tfa9890/settings/coldboot.patch:system/etc/tfa9890/settings/coldboot.patch \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/oppo/msm8939-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/msm8939-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
