@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/msm8939-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/msm8939-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
-    vendor/oppo/msm8939-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -110,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/oppo/msm8939-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/lib64/libtfaspeaker.so:system/lib64/libtfaspeaker.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
@@ -126,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oppo/msm8939-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/lib/libtfaspeaker.so:system/lib/libtfaspeaker.so \
-    vendor/oppo/msm8939-common/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/oppo/msm8939-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
