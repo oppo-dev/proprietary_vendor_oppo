@@ -58,12 +58,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
-    vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890.eq:system/etc/firmware/left.tfa9890.eq \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
+    vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_music_table.eq:system/etc/firmware/left.tfa9890_music_table.eq \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_n1b12.patch:system/etc/firmware/left.tfa9890_n1b12.patch \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
-    vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
+    vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_voice_table.eq:system/etc/firmware/left.tfa9890_voice_table.eq \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/tp/14045/14045_Firmware_Truly.img:system/etc/firmware/tp/14045/14045_Firmware_Truly.img \
     vendor/oppo/msm8939-common/proprietary/etc/firmware/tp/14045/14045_FW_S4291_Tpk.img:system/etc/firmware/tp/14045/14045_FW_S4291_Tpk.img \
