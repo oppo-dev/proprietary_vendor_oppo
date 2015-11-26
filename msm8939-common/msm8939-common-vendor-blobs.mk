@@ -74,11 +74,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/camera.msm8916.so:system/lib64/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
-    vendor/oppo/msm8939-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/oppo/msm8939-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/oppo/msm8939-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    vendor/oppo/msm8939-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/msm8939-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
